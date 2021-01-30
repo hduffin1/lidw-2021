@@ -1,0 +1,63 @@
+.contact-us {
+    padding-top: 87px;
+    max-width: 633px;
+    margin: 0 auto;
+
+    a {
+        color: $blue;
+    }
+ }
+
+ .contact-form {
+    padding-top: 87px;
+    max-width: 500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    #input_1_1_3,#input_1_1_6,#input_1_2,#input_1_2_2,#input_1_3 {
+        border: 1px solid $grey;
+    }
+
+    #gfield_consent_description_1_4 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 11px;  
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    #gform_submit_button_1 {
+        border: 1px solid $grey;
+        padding: 7px;
+    }
+ }
+
+ .event-contact-box {
+ 	margin-top: 30px;
+    background-color: $blue;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+
+    h3 {
+    	margin: 0;
+    }
+
+    a {
+    	color: $white;
+    	text-decoration: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+ 	.contact-form {
+    	padding-top: 20px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 1025px) {
+    .contact-us {
+        padding-right: 30px;
+    }
+}

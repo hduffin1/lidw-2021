@@ -1,0 +1,88 @@
+.member-content {
+    @extend %content-holder;
+
+    ul {
+        padding-left: 15px;
+        li {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .become-a-member {
+        .member-costs-holder {
+            padding: 15px;
+            width: 30%;
+            border: 2px solid $blue;
+            border-radius: 7px;
+            text-align: center;
+
+            h4 {
+                font-size: 32px;
+                color: $blue;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .member-terms {
+        p{
+            margin-top: 32px;
+            font-style: italic;
+        }
+    }
+}
+
+.member-apply-content {
+    max-width: 469px;
+    margin-top: 87px;
+
+    h3 {
+        font-style: italic;
+    }
+
+    .download-form-cta {
+        @extend %red-cta;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .member-apply-content {
+        margin-top: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+    .member-content {
+        padding-right: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px)
+and (max-width: 1200px) {
+    .member-content {
+        padding-right: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

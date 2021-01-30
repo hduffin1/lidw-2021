@@ -1,0 +1,33 @@
+.sponsorship-all {
+    @extend %content-holder;
+    max-width: 1200px;
+
+    .sponsors-holder {
+        margin-top: 50px;
+        .flex {
+            justify-content: flex-start;
+        }
+    }
+
+    .sponsors-holder-element {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        a {
+            display: flex;
+            align-items: center;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .sponsor-download-cta {
+        margin-top: 30px;
+        display: inline-block;
+        @extend %red-cta;
+    }
+}

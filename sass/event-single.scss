@@ -1,0 +1,54 @@
+.single-event-content {
+    @extend %content-holder;
+
+    .event-content {
+        ul {
+        padding-left: 15px;
+            li {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        @extend %red-cta;
+        margin-right: 10px;
+     }
+}
+
+.single-details-holder {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px;
+    background-color: $lightgrey;
+    margin-top: 34px;
+    h2 {
+        margin-top: 0;
+    }
+
+    .details-left {
+        width: 50%;
+    }
+
+    .details-right {
+        width: 50%;
+    }
+
+    .google-map-btn {
+        margin-top: 30px;
+        font-style: normal;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {  
+    .google-map-btn {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,326 @@
+.lidw-logo-large {
+    margin-top: 160px;
+}
+
+.home-banner {
+    .logo-details {
+        max-width: 635px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: $white; 
+    }
+
+    .underline {
+        height: 2px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: $white;
+    }
+
+    h3 {
+        margin-top: 10px; 
+        color: $white;
+    }
+
+    .details-holder {
+        margin-top: 20px;
+        h2 {
+            color: $white;
+            font-style: normal;
+            text-align: center;
+        }
+
+        .home-cta {
+            width: 42%;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        a {
+            text-align: center;
+            @extend %red-cta;
+        }
+    }
+}
+
+.welcome {
+    @extend %content-holder;
+    padding-top: 40px;
+
+    .homepage-figures-holder {
+        .flex {
+            justify-content: space-around;
+        }
+        margin-top: 20px;
+        .homepage-figures {
+            text-align: center;
+            h3 {
+                font-size: 72px;
+                margin: 0;
+                color: $blue;
+            }
+
+            h4 {
+                margin: 0;
+                color: $blue;
+            }
+        }
+    }
+
+    .homepage-second-copy {
+        margin-top: 45px;
+    }
+}
+
+.ticket-prices {
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .ticket-price-holder {
+        width: 50%;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .main-conf, .youngdr-conf {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        width: 80%;
+        border: 2px solid $blue;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .price {
+            font-size: 36px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    }
+
+    .corp {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        width: 90%;
+        border: 2px solid $blue;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        .price {
+            font-size: 36px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    }
+}
+
+.homepage-sponsor-carousel {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: normal;
+    }
+
+    .sponsor-carousel {
+        margin-bottom: 50px;
+
+        .left, .right {
+            height: 20px;
+            width: 30px;
+            cursor: pointer;
+        }
+
+        img {
+            width: auto;
+            height: 130px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding: 30px;
+        }
+    }
+}
+
+.coronavirus {
+    background: $blue;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    z-index: 1001;
+    text-align: center;
+    padding: 32px 15px 8px 15px;
+
+    h3 {
+        color: $white;
+    }
+
+    &--hidden {
+        display: none;
+    }
+
+    &-wrapper {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+
+    &-read-more {
+        display: none;
+        color: $white;
+
+        &--active {
+            display: block;
+        }
+    }
+
+    p {
+        color: #fff;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 20px;
+
+        strong {
+            font-size: 16px;
+            line-height: 27px;
+
+            a {
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    button {
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        text-shadow: none;
+        float: none;
+        background: #fff;
+        color: $red;
+        position: absolute;
+        right: 25px;
+        top: 15px;
+        border-radius: 50%;
+
+        span {
+            font-size: 20px;
+            position: absolute;
+            top: -4px;
+            left: 3px;
+        }
+
+        &:hover,
+        &:focus {
+            opacity: 1;
+            color: $LIDWblue;
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {  
+
+    .lidw-logo-large {
+        margin-top: 90px;
+    }
+
+    .home-banner {
+        .details-holder {
+            .home-cta {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .homepage-figures-holder {
+        .homepage-figures {
+            width: 30%;
+        }
+    }
+
+    .ticket-prices {
+        margin-top: 30px;
+
+        .main-conf, .youngdr-conf {
+            width: 70%;
+        }
+    }
+
+    .coronavirus {
+        padding: 5px;
+        &-wrapper {
+            padding: 10px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+    .coronavirus {
+        padding: 5px;
+        &-wrapper {
+            padding: 10px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+    .coronavirus {
+        padding: 5px;
+        &-wrapper {
+            padding: 10px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:1200px) 
+and (max-width: 1600px) {
+    .home-banner {
+        height: 500px;
+    }
+}
+

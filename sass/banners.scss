@@ -1,0 +1,23 @@
+%banners {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+}
+
+.home-banner {
+    @extend %banners;
+    background-image: url("../images/home-bg.jpg");
+}
+
+.ban-img {
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .ban-img {
+        padding-top: 70px;
+    }
+}

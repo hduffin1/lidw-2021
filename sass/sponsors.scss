@@ -1,0 +1,58 @@
+.sponsorship {
+    @extend %content-holder;
+
+    .sponsorship-icons-holder {
+        padding-top: 45px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        .sponsorship-icons {
+            text-align: center;
+            width: 40%;
+            img {
+                height: 62px;
+            }
+        }
+    }
+
+    .sponsors-additional-copy {
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .sponsor-download-cta {
+            @extend %red-cta;
+            padding: 10px 25px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            a {
+                color: $white;
+                text-decoration: none;
+                &:hover {
+                    color: $blue;
+                    transition: .4s;
+                }
+            }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {  
+    .sponsorship {
+        .sponsorship-icons-holder {
+            .sponsorship-icons {
+                width: 100%;
+            }
+        }
+
+        .sponsor-download-cta {
+            font-size: 14px;
+        }
+    }
+}

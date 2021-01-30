@@ -1,0 +1,81 @@
+.agenda {
+    padding-top: 85px;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.agenda-content {
+    padding: 10px 0;
+    border-bottom: 1px solid $LIDWblue;
+}
+
+#panels {
+    h2 {
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .flex {
+        justify-content: flex-start;
+    }
+
+    .time {
+        margin-left: 20px;
+        flex-basis: 15%;
+
+        h3 {
+            color: $black;
+            font-weight: 400;
+        }
+    }
+
+    .title {
+        flex: 80%;
+        a {
+            text-decoration: none;
+
+            h3 {
+                transition: .4s;
+                font-weight: 400;
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+    }
+}
+
+#panel-1 {
+    .agenda-content {
+        &:nth-of-type(2),&:nth-of-type(3),
+        &:nth-of-type(5),&:nth-of-type(7),&:nth-of-type(9),
+        &:nth-of-type(11),&:nth-of-type(13),&:nth-of-type(14),
+        &:nth-of-type(15) {
+            a {
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+.agenda-single {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+    .back-btn {
+       @extend %red-cta;
+       display: inline-block;
+       margin-bottom: 50px;
+    }
+
+    .date-time {
+        font-style: normal;
+        padding-bottom: 30px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 22px;
+    }
+}
