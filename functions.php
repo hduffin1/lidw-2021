@@ -17,10 +17,13 @@ function agenda() {
         'parent_item_colon'  => __( 'Parent Programme Session:' ),
         'not_found'          => __( 'No Programme Session found.' ),
         'not_found_in_trash' => __( 'No Programme Session members found in Trash.' )
+
     );
     $args = array(
+
         'labels'             => $labels,
         'description'        => __( 'Description.', 'your-plugin-textdomain' ),
+        'taxonomies'         => array('category'),
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
