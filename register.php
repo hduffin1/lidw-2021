@@ -19,28 +19,28 @@
             <div class="flex">
                 <div class="ticket-price-holder">
                     <div class="main-conf">
-                        <h3>Main conference</h3>
-                        <h3 class="price">£300</h3>
-                        <p>Early bird offer until 15.05.2020</p>
+                        <h3>Standard ticket</h3>
+                        <h3 class="price">£160</h3>
+                        <p>Early bird offer until 31.03.2021</p>
                     </div>
 
                     <div class="main-conf early-bird">
                         <h3>Main conference</h3>
-                        <h3 class="price">£350</h3>
+                        <h3 class="price">£200</h3>
                         <p>Full price</p>
                     </div>
                 </div>
 
                 <div class="ticket-price-holder">
                     <div class="youngdr-conf">
-                        <h3>Young lawyers DR conference</h3>
-                        <h3 class="price">£75</h3>
-                        <p>Early bird offer until 15.05.2020</p>
+                        <h3>Young lawyers</h3>
+                        <h3 class="price">£120</h3>
+                        <p>Early bird offer until 31.03.2021</p>
                     </div>
 
                     <div class="youngdr-conf early-bird">
-                        <h3>Young lawyers DR conference</h3>
-                        <h3 class="price">£100</h3>
+                        <h3>Young lawyers</h3>
+                        <h3 class="price">£150</h3>
                         <p>Full price</p>
                     </div>
                 </div>
@@ -51,9 +51,9 @@
                 <h3 class="price">Complimentary</h3>
             </div>
 
-            <p>Registration for any other events taking place during the week is separate – please contact each individual event organiser or visit their websites to register.
-<br><br>
-<i>Ticket prices are subject to a £10 booking fee and all prices are subject to VAT.</i></p>
+            <p>Registration for any events outside of the main conference programme will need to be done separately and information regarding these can be found within the event programme. 
+            <br><br>
+            <i>Ticket prices are subject to a £10 booking fee and all prices are subject to VAT.</i></p>
         </div>
     </div>
 </div>

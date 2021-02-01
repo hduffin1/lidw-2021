@@ -42,6 +42,44 @@
     }
 }
 
+.sponsorship-all {
+    @extend %content-holder;
+    max-width: 1200px;
+
+    .sponsors-holder {
+        margin-top: 50px;
+        .flex {
+            justify-content: flex-start;
+        }
+    }
+
+    .sponsors-holder-element {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        a {
+            display: flex;
+            align-items: center;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    .sponsor-download-cta {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 200px;
+        text-align: center;
+        @extend %red-cta;
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {  
     .sponsorship {

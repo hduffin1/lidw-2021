@@ -7,7 +7,7 @@
     <title>London Disputes Week - Event 2021 | <?php the_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/slick-theme.css" />
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/slick.css" />
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=23457" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=010220212" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
 </head>
 
@@ -40,15 +40,15 @@
                             <a href="https://lidw.co.uk/blog/" target="_blank">Blog</a>
                             <a href="https://lidw.co.uk/social-media/" target="_blank">Social media feeds</a>
                             <div class="flex">
-                            <a href="https://twitter.com/LIDW_"><img src="<?php bloginfo( 'template_directory' ); ?>/images/twitter-white.svg" class="nav-icon"></a>
-                            <a href="https://www.linkedin.com/company/35454241/"><img src="<?php bloginfo( 'template_directory' ); ?>/images/linkedin-white.svg" class="nav-icon"></a>
-                            <a href="https://www.youtube.com/channel/UClYlWViyi4yoF7I90tnoMYw/about"><img src="<?php bloginfo( 'template_directory' ); ?>/images/youtube-white.svg" class="nav-icon"></a>
+                            <a href="https://twitter.com/LIDW_" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/twitter-white.svg" class="nav-icon"></a>
+                            <a href="https://www.linkedin.com/company/35454241/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/linkedin-white.svg" class="nav-icon"></a>
+                            <a href="https://www.youtube.com/channel/UClYlWViyi4yoF7I90tnoMYw/about" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/youtube-white.svg" class="nav-icon"></a>
                         </div>
                         </div>
 
                     </div>
 
-                    <li><a href="https://lidw.co.uk/become-a-member/">LIDW Membership</a></li>
+                    <li><a href="https://lidw.co.uk/become-a-member/">LIDW membership</a></li>
                     <li class="reg-btn"><a href="<?php the_permalink(); ?>/register/">Register</a></li>
                 </ul>
             </nav>

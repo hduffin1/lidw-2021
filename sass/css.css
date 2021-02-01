@@ -732,6 +732,22 @@ div.panel {
   pointer-events: none;
 }
 
+#panel-2 .agenda-content:nth-of-type(1) a, #panel-2 .agenda-content:nth-of-type(2) a, #panel-2 .agenda-content:nth-of-type(3) a, #panel-2 .agenda-content:nth-of-type(5) a, #panel-2 .agenda-content:nth-of-type(7) a, #panel-2 .agenda-content:nth-of-type(8) a, #panel-2 .agenda-content:nth-of-type(9) a, #panel-2 .agenda-content:nth-of-type(11) a, #panel-2 .agenda-content:nth-of-type(13) a, #panel-2 .agenda-content:nth-of-type(14) a, #panel-2 .agenda-content:nth-of-type(15) a {
+  pointer-events: none;
+}
+
+#panel-3 .agenda-content:nth-of-type(1) a, #panel-3 .agenda-content:nth-of-type(2) a, #panel-3 .agenda-content:nth-of-type(3) a, #panel-3 .agenda-content:nth-of-type(5) a, #panel-3 .agenda-content:nth-of-type(7) a, #panel-3 .agenda-content:nth-of-type(8) a, #panel-3 .agenda-content:nth-of-type(9) a, #panel-3 .agenda-content:nth-of-type(11) a, #panel-3 .agenda-content:nth-of-type(13) a, #panel-3 .agenda-content:nth-of-type(14) a, #panel-3 .agenda-content:nth-of-type(15) a {
+  pointer-events: none;
+}
+
+#panel-4 .agenda-content:nth-of-type(1) a, #panel-4 .agenda-content:nth-of-type(2) a, #panel-4 .agenda-content:nth-of-type(4) a, #panel-4 .agenda-content:nth-of-type(6) a, #panel-4 .agenda-content:nth-of-type(7) a, #panel-4 .agenda-content:nth-of-type(8) a, #panel-4 .agenda-content:nth-of-type(10) a {
+  pointer-events: none;
+}
+
+#panel-5 .agenda-content a {
+  pointer-events: none;
+}
+
 .agenda-single {
   max-width: 900px;
   margin: 0 auto;
@@ -1209,15 +1225,6 @@ label.panel-label {
   transition: 0.4s;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .sponsorship .sponsorship-icons-holder .sponsorship-icons {
-    width: 100%;
-  }
-  .sponsorship .sponsor-download-cta {
-    font-size: 14px;
-  }
-}
 .sponsorship-all {
   max-width: 1200px;
 }
@@ -1244,9 +1251,22 @@ label.panel-label {
 }
 .sponsorship-all .sponsor-download-cta {
   margin-top: 30px;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+  text-align: center;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sponsorship .sponsorship-icons-holder .sponsorship-icons {
+    width: 100%;
+  }
+  .sponsorship .sponsor-download-cta {
+    font-size: 14px;
+  }
+}
 .single-event-content .event-content ul {
   padding-left: 15px;
 }

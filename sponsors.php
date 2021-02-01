@@ -29,7 +29,7 @@
             <?php the_field('additional_copy'); ?>
             
         </div>   
-        <a href="<?php the_field('sponsor_brochure'); ?>" class="sponsor-download-cta" target="_blank">Download the LIDW2021 sponsorship pack</a>
+        <a href="<?php the_field('sponsor_brochure', 12); ?>" class="sponsor-download-cta" target="_blank">Sponsorship opportunities</a>
     </div>
 
 <?php get_footer(); ?>

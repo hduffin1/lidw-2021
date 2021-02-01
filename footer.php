@@ -17,7 +17,7 @@
 
           <a href="https://www.linkedin.com/company/35454241/admin/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/linkedin.svg" alt="linkedin icon"></a>
 
-          <a href="https://www.youtube.com/channel/UClYlWViyi4yoF7I90tnoMYw/about"><img src="<?php bloginfo( 'template_directory' ); ?>/images/youtube.svg"></a>
+          <a href="https://www.youtube.com/channel/UClYlWViyi4yoF7I90tnoMYw/about" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/youtube.svg"></a>
           <a href="<?php the_permalink(); ?>/register/" class="reg-btn">Register</a>
         </div>
       </div>
