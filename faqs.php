@@ -10,9 +10,9 @@
 
         <div class="flex">
             <div class="faq-repeater-holder">
-                <h2>General FAQs</h2>
-                <?php if( have_rows('general_faqs') ): ?>
-                    <?php while(have_rows('general_faqs')): the_row(); ?>
+                <h2>Event FAQs</h2>
+                <?php if( have_rows('event_faqs') ): ?>
+                    <?php while(have_rows('event_faqs')): the_row(); ?>
                         <button class="accordion">
                             <?php the_sub_field('faq_question'); ?>
                         </button>
@@ -25,9 +25,9 @@
             </div>
 
             <div class="faq-repeater-holder">
-                <h2>Event FAQs</h2>
-                <?php if( have_rows('event_faqs') ): ?>
-                    <?php while(have_rows('event_faqs')): the_row(); ?>
+                <h2>General FAQs</h2>
+                <?php if( have_rows('general_faqs') ): ?>
+                    <?php while(have_rows('general_faqs')): the_row(); ?>
                         <button class="accordion">
                             <?php the_sub_field('faq_question'); ?>
                         </button>
@@ -57,7 +57,6 @@
             </div>
 
             <div class="faq-repeater-holder">
-                <h2>Travel FAQs</h2>
                 <?php if( have_rows('travel_faqs') ): ?>
                     <?php while(have_rows('travel_faqs')): the_row(); ?>
                         <button class="accordion">
