@@ -47,7 +47,7 @@
                         </div>
 
                     </div>
-
+                    <li><a href="faqs/">FAQs</a></li>
                     <li><a href="https://lidw.co.uk/become-a-member/">LIDW membership</a></li>
                     <li class="reg-btn"><a href="<?php the_permalink(); ?>/register/">Register</a></li>
                 </ul>
