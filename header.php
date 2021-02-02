@@ -7,7 +7,7 @@
     <title>London Disputes Week - Event 2021 | <?php the_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/slick-theme.css" />
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/slick.css" />
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=010220212" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=01022021256" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

@@ -728,19 +728,19 @@ div.panel {
   color: #ed1c24;
 }
 
-#panel-1 .agenda-content:nth-of-type(2) a, #panel-1 .agenda-content:nth-of-type(3) a, #panel-1 .agenda-content:nth-of-type(5) a, #panel-1 .agenda-content:nth-of-type(7) a, #panel-1 .agenda-content:nth-of-type(9) a, #panel-1 .agenda-content:nth-of-type(11) a, #panel-1 .agenda-content:nth-of-type(13) a, #panel-1 .agenda-content:nth-of-type(14) a, #panel-1 .agenda-content:nth-of-type(15) a {
+#panel-1 .agenda-content a {
   pointer-events: none;
 }
 
-#panel-2 .agenda-content:nth-of-type(1) a, #panel-2 .agenda-content:nth-of-type(2) a, #panel-2 .agenda-content:nth-of-type(3) a, #panel-2 .agenda-content:nth-of-type(5) a, #panel-2 .agenda-content:nth-of-type(7) a, #panel-2 .agenda-content:nth-of-type(8) a, #panel-2 .agenda-content:nth-of-type(9) a, #panel-2 .agenda-content:nth-of-type(11) a, #panel-2 .agenda-content:nth-of-type(13) a, #panel-2 .agenda-content:nth-of-type(14) a, #panel-2 .agenda-content:nth-of-type(15) a {
+#panel-2 .agenda-content a {
   pointer-events: none;
 }
 
-#panel-3 .agenda-content:nth-of-type(1) a, #panel-3 .agenda-content:nth-of-type(2) a, #panel-3 .agenda-content:nth-of-type(3) a, #panel-3 .agenda-content:nth-of-type(5) a, #panel-3 .agenda-content:nth-of-type(7) a, #panel-3 .agenda-content:nth-of-type(8) a, #panel-3 .agenda-content:nth-of-type(9) a, #panel-3 .agenda-content:nth-of-type(11) a, #panel-3 .agenda-content:nth-of-type(13) a, #panel-3 .agenda-content:nth-of-type(14) a, #panel-3 .agenda-content:nth-of-type(15) a {
+#panel-3 .agenda-content a {
   pointer-events: none;
 }
 
-#panel-4 .agenda-content:nth-of-type(1) a, #panel-4 .agenda-content:nth-of-type(2) a, #panel-4 .agenda-content:nth-of-type(4) a, #panel-4 .agenda-content:nth-of-type(6) a, #panel-4 .agenda-content:nth-of-type(7) a, #panel-4 .agenda-content:nth-of-type(8) a, #panel-4 .agenda-content:nth-of-type(10) a {
+#panel-4 .agenda-content a {
   pointer-events: none;
 }
 
