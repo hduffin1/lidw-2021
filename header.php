@@ -17,6 +17,8 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="44299ea0-f392-43c7-b3ca-d1139e17cf52" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 
 <body>
@@ -42,11 +44,10 @@
                     <li><a href="<?php the_permalink(); ?>/contact-us/">Contact LIDW</a></li>
 
                     <div class="dropdown">
-                        <button class="dropbtn">Social media<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="dropdown-arrow" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></button>
+                        <button class="dropbtn">Insights<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="dropdown-arrow" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></button>
 
                         <div class="dropdown-content">
                             <a href="https://lidw.co.uk/blog/" target="_blank">Blog</a>
-                            <a href="https://lidw.co.uk/social-media/" target="_blank">Social media feeds</a>
                             <div class="flex">
                             <a href="https://twitter.com/LIDW_" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/twitter-white.svg" class="nav-icon"></a>
                             <a href="https://www.linkedin.com/company/35454241/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/images/linkedin-white.svg" class="nav-icon"></a>

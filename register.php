@@ -11,7 +11,7 @@
             <?php the_content(); ?>
             <?php endwhile; ?>
 
-          <div class="reg-btn"> <a href="">Register Now</a></div>
+          <div class="reg-btn"> <a href="https://eu.eventscloud.com/ereg/index.php?eventid=200218974&">Register Now</a></div>
 
             <div class="ticket-prices">
             <h2>Ticket Prices</h2>
