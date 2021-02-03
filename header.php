@@ -18,6 +18,16 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MM31FH0EQ8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MM31FH0EQ8');
+    </script>
+
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="44299ea0-f392-43c7-b3ca-d1139e17cf52" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 
