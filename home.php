@@ -22,7 +22,7 @@
 
 <div class="container">
     <div class="homepage-sponsor-carousel">
-        <h2>LIDW2021 is proudly sponsored by</h2>
+        <h2>LIDW21 is proudly sponsored by</h2>
         <div class="sponsor-carousel">
             <?php if( have_rows('sponsor_carousel')): ?>
                 <?php while(have_rows('sponsor_carousel')): the_row(); ?>
