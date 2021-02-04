@@ -728,23 +728,7 @@ div.panel {
   color: #ed1c24;
 }
 
-#panel-1 .agenda-content a {
-  pointer-events: none;
-}
-
-#panel-2 .agenda-content a {
-  pointer-events: none;
-}
-
-#panel-3 .agenda-content a {
-  pointer-events: none;
-}
-
-#panel-4 .agenda-content a {
-  pointer-events: none;
-}
-
-#panel-5 .agenda-content a {
+#panels a {
   pointer-events: none;
 }
 
